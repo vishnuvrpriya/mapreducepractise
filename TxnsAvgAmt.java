@@ -40,10 +40,11 @@ public class TxnsAvgAmt {
 			for(DoubleWritable val : values)
 			{
 				sumAmt+= val.get();
-				countAmt++;
-				avgAmt = sumAmt/countAmt;
+				
 				
 			}
+				countAmt++;
+				avgAmt = sumAmt/countAmt;
 			
 			
 				
